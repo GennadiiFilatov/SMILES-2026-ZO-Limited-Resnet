@@ -1,8 +1,5 @@
 """
-augmentation.py — Data augmentation pipeline for CIFAR100 (student-modified).
-
-Students: Extend the *training* transform pipeline to improve generalization.
-The validation pipeline is fixed — do not modify it.
+augmentation.py — Data augmentation pipeline for CIFAR100.
 
 CIFAR100 images are 32×32. Both pipelines resize to 224×224 to match the
 input expected by the pretrained ResNet18 backbone.
